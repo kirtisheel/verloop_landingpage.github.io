@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(1, 1, 44);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 80px;
+}
+.header img{
+   background-color:  rgb(1, 1, 44);
+   margin-left: 80px;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-btn{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 80px;
+}
+.main{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.main h1{
+    color: white;
+    font-family: "Exo 2", "Serif";
+
+}
+.main p{
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.icons{
+    margin-top: 30px;
+    color: white;
+    
+}
+.icons .calender{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.icons .calender i{
+    padding: 10px 10px;
+    border: 0.1px solid white;
+    border-radius: 5px;
+}
+
+.icons .clock{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.icons .clock i{
+    padding: 8px 8px;
+    border: 0.1px solid white;
+    border-radius: 5px;
+}
+
+.icons .location{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.icons .location i{
+    padding: 12px 12px;
+    border: 0.1px solid white;
+    border-radius: 5px;
+}
+
+.icons-com{
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.img{
+    display: flex;
+    gap: 40px;
+}
+
+.form{
+    padding: 20px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.form h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form .column{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.input-box{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.input-box input{
+    width: 100%;
+}
+
+.input-box textarea{
+    width: 100%;
+}
+
+
+.demo{
+    background-color: rgb(43, 43, 203);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 0;
+    width: 100%;
+    border: none;
+}
+/*.mid{
+    margin-left: 80px;
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+}*/
+
+.mid-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mid i{
+    cursor: pointer;
+}
+.mid h1{
+    font-family: "Exo 2", "Serif";
+    font-weight: 400;
+    padding-left: 80px;
+}
+
+.slideshow-container{
+    max-width: 1100px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.slideshow-container .carosual{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    gap: 5px;
+    overflow: hidden;
+    padding: 30px 0;
+    
+}
+.carosual{
+    display: flex;
+}
+.container{
+    padding: 20px 20px;
+}
+.card{
+    border: 0.1px solid gray;
+    background-color: white;
+    gap: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.card img{
+    padding: 20px 20px;
+}
+
+.dot{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 10px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+  }
+
+  .dotting{
+    margin-bottom: 50px;
+  }
+  .card-content{
+    background-color: rgb(1, 1, 44);
+    color: white;
+    padding: 80px 80px;
+
+ 
+  }
+  .card-content h2{
+    font-family: "Exo 2", "Serif";
+   margin-left: 30px;
+   padding-top: 30px;
+  }
+
+  .card-content p{
+    margin-left: 30px;
+    padding-top: 30px;
+    font-size: smaller;
+    
+  }
+
+  .card-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 30px;
+  }
+  
+  .cards{
+    background-color: rgb(13, 13, 40);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    padding-bottom: 20px;
+  }
+  .card-1 img{
+    margin: 20px 20px;
+  }
+  .card-1 h4{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .card-1 p{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .mid-section{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .mid-section h1{
+font-family: "Exo 2", "Serif";
+
+  }
+  .mid-btn{
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .above-footer{
+    background-color: rgb(1, 1, 44);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px;
+  }
+  
+  .above-footer-detail .detail h5{
+ font-weight: bold;
+ 
+  }
+  .above-footer li{
+    color: rgb(192, 187, 187);
+    font-size: x-small;
+    margin-top: 15px;
+    list-style-type: none;
+
+  }
+  hr{
+    color: rgb(41, 35, 35);
+
+
+
+  }
+  .footer{
+    background-color: rgb(1, 1, 44);
+    color: rgb(192, 187, 187);
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px;
+  }
+  span{
+    font-weight: bold;
+  }
+  .footer-img p{
+    color: rgb(192, 187, 187);
+    font-size: x-small;
+    padding-top: 15px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .header {
+        padding: 20px;
+    }
+
+    .header img {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+        margin: 20px;
+    }
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .icons div {
+        margin-bottom: 10px;
+    }
+
+    .form {
+        padding: 20px;
+    }
+
+    .mid h1 {
+        padding-left: 0;
+    }
+
+    .slideshow-container .carosual {
+        gap: 5px;
+    }
+
+    .card {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+
+    .mid-section {
+        padding: 20px;
+    }
+
+    .above-footer {
+        padding: 20px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-btn {
+        margin: 10px 0;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .icons div {
+        margin-bottom: 5px;
+    }
+
+    .form {
+        padding: 10px;
+    }
+
+    .mid h1 {
+        font-size: 1.5rem;
+    }
+    .slideshow-container .carosual {
+        gap: 5px;
+    }
+
+    .card {
+        flex: 0 0 calc(100% - 10px);
+        max-width: calc(100% - 10px);
+    }
+
+    .mid-section h1 {
+        font-size: 1.2rem;
+    }
+
+    .mid-btn {
+        padding: 8px 16px;
+    }
+    .above-footer {
+        padding: 10px;
+    }
+
+    .footer {
+        padding: 10px;
+    }
+}
+
+
+  @media screen and (max-width: 900px){
+.slideshow-container .carosual{
+    grid-auto-columns: calc((100% / 2) - 9px);
+}
+  }
+
+  @media screen and (max-width: 600px){
+    .slideshow-container .carosual{
+        grid-auto-columns: 100%;
+    }
+      }
